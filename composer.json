@@ -1,11 +1,14 @@
 {
     "name": "preemstudio/blade-icons-iconic",
-    "description": "A package to easily make use of Iconic in your Laravel Blade views.",
+    "description": "A package to easily make use of Iconic with Laravel Blade Icons.",
     "license": "MIT",
     "keywords": [
         "PreemStudio",
         "laravel",
-        "package_slug"
+        "blade",
+        "blade-icons",
+        "blade-icons-iconic",
+        "iconic"
     ],
     "authors": [
         {
