@@ -1,8 +1,8 @@
 # Iconic
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/preemstudio/blade-icons-iconic.svg?style=flat-square)](https://packagist.org/packages/preemstudio/blade-icons-iconic)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/preemstudio/blade-icons-iconic/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/preemstudio/blade-icons-iconic/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/preemstudio/blade-icons-iconic/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/preemstudio/blade-icons-iconic/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/preemstudio/blade-icons-iconic/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/PreemStudio/blade-icons-iconic/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/preemstudio/blade-icons-iconic/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/PreemStudio/blade-icons-iconic/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/preemstudio/blade-icons-iconic.svg?style=flat-square)](https://packagist.org/packages/preemstudio/blade-icons-iconic)
 
 A package to easily make use of [Iconic](https://iconic.app/) with Laravel Blade Icons.
@@ -15,15 +15,12 @@ You can install the package via composer:
 composer require preemstudio/blade-icons-iconic
 ```
 
-You can publish the config file with:
-
-```bash
-php artisan vendor:publish --tag=blade-icons-iconic-config
-```
-
 ## Usage
 
-This package utilizes Blade Icons under the hood. For additional functionality, please refer to the [Blade Icons README](https://github.com/PreemStudio/blade-icons). The prefix for all icons in this package is `iconic`.
+> **Note**
+> Please refer to the [Blade Icons](https://github.com/PreemStudio/blade-icons) documentation for more information on how to use this package.
+
+The prefix for all icons in this package is `iconic`.
 
 ## Testing
 

@@ -2,21 +2,16 @@
 
 declare(strict_types=1);
 
-namespace PreemStudio\BladeIconic;
+namespace PreemStudio\BladeIcons\Iconic;
 
 use PreemStudio\BladeIcons\Facades\IconFamilyRegistry;
 use PreemStudio\BladeIcons\IconFamily;
-use PreemStudio\BladeIcons\IconFamilyStyle;
 use PreemStudio\Jetpack\Package\AbstractServiceProvider;
 
 final class ServiceProvider extends AbstractServiceProvider
 {
     public function packageRegistered(): void
     {
-        IconFamilyRegistry::push(
-            new IconFamily('iconic', [
-                new IconFamilyStyle('default', __DIR__.'/../resources/svg'),
-            ]),
-        );
+        IconFamilyRegistry::push(IconFamily::fromDirectory('iconic', __DIR__.'/../resources/svg'));
     }
 }
