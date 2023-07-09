@@ -4,20 +4,6 @@
     </a>
 </p>
 
-<p align="center">
-    <a href="https://github.com/faustbrian/blade-icons-iconic/actions">
-        <img src="https://badge.sh/github/check-runs/BombenProdukt/blade-icons-iconic" alt="Checks" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/blade-icons-iconic">
-        <img src="https://badge.sh/packagist/downloads/BombenProdukt/blade-icons-iconic" alt="Downloads" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/blade-icons-iconic">
-        <img src="https://badge.sh/packagist/version/BombenProdukt/blade-icons-iconic" alt="Version" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/blade-icons-iconic">
-        <img src="https://badge.sh/packagist/license/BombenProdukt/blade-icons-iconic" alt="License" />
-    </a>
-</p>
 
 ## About Iconic
 
